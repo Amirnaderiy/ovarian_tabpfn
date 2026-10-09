@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below. The article reference will be added on publication."
+title: "ovarian-tabpfn"
+abstract: "Evaluation of the tabular foundation model TabPFN-3 for discriminating benign and malignant ovarian tumours from routine laboratory biomarkers."
+authors:
+  - family-names: "Naderi Yaghouti"
+    given-names: "Amir Reza"
+  - family-names: "Shalbaf"
+    given-names: "Ahmad"
+    orcid: "https://orcid.org/0000-0002-1595-7281"
+repository-code: "https://github.com/Amirnaderiy/ovarian_tabpfn"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-09"

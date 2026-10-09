@@ -1,0 +1,21 @@
+# raw data and model weights are not redistributed
+data/*
+!data/README.md
+models/*
+!models/README.md
+*.ckpt
+*.xlsx
+
+# generated outputs (except the published predictions)
+results/*
+!results/repeated_cv_predictions.csv
+
+# secrets
+.env
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.ipynb_checkpoints/

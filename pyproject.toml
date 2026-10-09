@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovarian-tabpfn"
+version = "1.0.0"
+description = "Benign vs. malignant ovarian tumour classification from routine laboratory data with TabPFN-3"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Amir Reza Naderi Yaghouti" }, { name = "Ahmad Shalbaf" }]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "xgboost",
+    "openpyxl",
+    "matplotlib",
+    "shap",
+    "torch",
+    "tabpfn",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,5 +1,7 @@
 # ovarian-tabpfn
 
+[![DOI](https://zenodo.org/badge/1411385360.svg)](https://doi.org/10.5281/zenodo.23285891)
+
 Code for the study *Discrimination of benign and malignant ovarian tumors from routine laboratory biomarkers using a tabular foundation model*.
 
 The analysis applies the tabular foundation model TabPFN-3 to routine laboratory and demographic variables, and compares it with random forest, XGBoost, logistic regression and a decision tree using repeated stratified cross-validation.
